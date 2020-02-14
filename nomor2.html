@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madding Sederhana</title>
+    <style>
+        table,tr,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 20px;
+            margin: auto;
+        }
+
+        img {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <center>
+        <h1>Madding</h1>
+        <form action="" id="loginHtml">   
+            <p>Username: <input type="text" name="" id="userName"></p>
+            <p>Password: <input type="password" name="" id="passWord"></p>
+            <p><input type="button" value="Login" onclick="login()"></p>
+            <p><input type="button" value="Register" onclick="register()"></p>
+        </form> 
+        <br>
+        <div id="greetings"></div>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Kegiatan</th>
+                    <th>Hari</th>
+                    <th>Poster</th>
+                    <th colspan="2">Act</th>
+                </tr>
+
+            </thead>
+            <tbody id="outputTabel">
+
+            </tbody>
+        </table>
+        <div id="logout"></div>
+    </center>
+
+<script src="nomor2.js"></script>
+</body>
+</html>
